@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Social Media App</title>
+    <style>
+        /* Reset default margin and padding */
+        body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Set a background color for the entire app */
+        body {
+            background-color: #f7f7f7;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #0074D9;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        /* Main content area */
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem;
+        }
+
+        /* Feed section (posts, images, videos) */
+        .feed {
+            flex: 2;
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Sidebar styles */
+        .sidebar {
+            flex: 1;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer styles */
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Your logo, navigation, user profile, etc. -->
+        <h1>INDIA'S TUB</h1>
+    </header>
+    <main>
+        <section class="feed">
+            <!-- Display posts, images, videos here -->
+            <!-- Example: -->
+            <div class="post">
+                <h2>Post Title</h2>
+                <p>Posted by User123</p>
+                <img src="post-image.jpg" alt="Post Image">
+            </div>
+        </section>
+        <aside class="sidebar">
+            <!-- User profile, trending topics, friends list, etc. -->
+            <!-- Example: -->
+            <div class="user-profile">
+                <img src="user-avatar.jpg" alt="User Avatar">
+                <h3>User123</h3>
+                <p>Followers: 0</p>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <!-- Footer content (links, copyright, etc.) -->
+        © 2024 My Social Media App
+    </footer>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Search Bar with Icon</title>
+    <style>
+        /* Search bar container */
+        .search-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Search input */
+        .search-input {
+            padding: 15px 40px 15px 15px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            font-size: 18px;
+            width: 400px;
+            outline: none;
+        }
+
+        /* Search icon */
+        .search-icon {
+            position: absolute;
+            top: 50%;
+            left: 20px;
+            transform: translateY(-50%);
+            color: #888;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <i class="search-icon"></i>
+        <input type="text" class="search-input" placeholder="Search...">
+        
+        
+       
+    </div>
+    
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Channel</title>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <summary><h1>Create Your Channel</h1>
+    <form action="/create-channel" method="POST" enctype="multipart/form-data">
+        <label for="channelName">Channel Name:</label>
+        <input type="text" id="channelName" name="channelName" required>
+
+        <label for="channelImage">Channel Image:</label>
+        <input type="file" id="channelImage" name="channelImage" accept="image/*" required>
+
+        <label for="channelDescription">Channel Description:</label>
+        <textarea id="channelDescription" name="channelDescription" rows="4" required></textarea>
+
+        <button type="submit">Create Channel</button>
+    </form>
+    
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Upload</title>
+</head>
+<body>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="videoFile">Choose a video:</label>
+        <input type="file" id="videoFile" name="video" accept="video/*">
+        <input type="submit" value="Upload">
+    </form>
+
+
+
+
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
